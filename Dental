@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta property="og:image" content="https://osmanzaf.github.io/FZInternationalhospital/images/dental-banner.jpg">
+<link rel="canonical" href="https://osmanzaf.github.io/FZInternationalhospital/dental.html">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>FZ Dental Clinic Islamabad | Implants, Braces, Root Canal | Jinnah Garden</title>
@@ -21,9 +23,48 @@
   "address":{"@type":"PostalAddress","streetAddress":"204 Street, Shaheen Commercial, Jinnah Garden","addressLocality":"Islamabad","addressCountry":"PK"},
   "geo":{"@type":"GeoCoordinates","latitude":"33.574523","longitude":"73.169550"},
   "aggregateRating":{"@type":"AggregateRating","ratingValue":"4.7","reviewCount":"95"},
+"review":[
+{
+ "@type":"Review",
+ "author":"Ahmed Rehman",
+ "reviewRating":{"@type":"Rating","ratingValue":"5"},
+ "reviewBody":"Best dental implant experience in Islamabad."
+},
+{
+ "@type":"Review",
+ "author":"Sana Khan",
+ "reviewRating":{"@type":"Rating","ratingValue":"5"},
+ "reviewBody":"Amazing braces treatment by FCPS orthodontist."
+}
+],
+
   "hasMap":"https://maps.app.goo.gl/EGrFk54bbtWk7nGb8",
   "openingHours":"Mo-Sa 09:00-20:00",
   "medicalSpecialty":"Dentistry"
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+ {
+ "@type": "Question",
+ "name": "How much do dental implants cost in Islamabad?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Dental implants at FZ Hospital start from Rs. 80,000 depending on case."
+ }
+ },
+ {
+ "@type": "Question",
+ "name": "What is braces price in Islamabad?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Braces start from Rs. 35,000 with installment options available."
+ }
+ }
+ ]
 }
 </script>
 
@@ -136,7 +177,11 @@ img{max-width:100%;display:block;}
 /* Hero right card */
 .hero-card{background:rgba(255,255,255,.06);backdrop-filter:blur(20px);
   border:1px solid rgba(255,255,255,.12);border-radius:24px;overflow:hidden;}
-/* Clinic image placeholder — replace with images/dental-room.jpg -->
+/* Clinic image placeholder — replace with 
+images/dental-clinic-islamabad.jpg
+images/dental-implant-islamabad.jpg
+images/braces-islamabad.jpg
+images/root-canal-islamabad.jpg -->
 .hc-img{height:260px;
   background:linear-gradient(135deg,#0a2a2a 0%,#0d3d3d 50%,#0a2a2a 100%);
   position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden;}
@@ -488,7 +533,7 @@ section{padding:80px 5%;}
   <div class="hero-inner">
     <div>
       <div class="hero-badge"><span class="badge-dot"></span>Best Dental Clinic in Jinnah Garden</div>
-      <h1>Your Perfect<br><em>Smile</em> Starts<br>Here</h1>
+	<h1>Best Dental Clinic in Islamabad – Implants, Braces & Root Canal in Jinnah Garden</h1>
       <p class="hero-desc">Premium dental care by FCPS Orthodontist and UK-trained Oral Surgeon at FZ International Hospital, Jinnah Garden, Islamabad. Affordable prices, expert hands, lasting results.</p>
       <div class="hero-feats">
         <div class="hf"><div class="hf-check">✓</div>Dental Implants from Rs. 80,000 — Permanent, natural-looking teeth</div>
@@ -509,7 +554,7 @@ section{padding:80px 5%;}
     <div class="hero-card">
       <!-- Replace: images/dental-room.jpg — show dental chair, procedure room -->
       <div class="hc-img">
-        <img src="images/dental-room.jpg" alt="FZ Dental Clinic procedure room Islamabad"
+        <img src="images/dental-clinic-islamabad.jpg" alt="Dental clinic in Islamabad at FZ Hospital"
           onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
         <div class="hc-img-ph" style="display:none;">
           <div class="hc-img-ph-icon">🦷</div>
@@ -1150,7 +1195,7 @@ section{padding:80px 5%;}
   </div>
   <div class="map-cards">
     <div class="mc"><span class="mc-ico">📍</span><div><strong>Address</strong><p>204 Street, Shaheen Commercial<br>Jinnah Garden, Islamabad</p></div></div>
-    <div class="mc"><span class="mc-ico">📞</span><div><strong>Call / WhatsApp</strong><p><a href="tel:05144930311" style="color:var(--text);">051-4493031</a><br><a href="https://wa.me/923111529680" style="color:var(--green);" target="_blank">031-11529680</a></p></div></div>
+    <div class="mc"><span class="mc-ico">📞</span><div><strong>Call / WhatsApp</strong><p><a href="tel:05144930311" style="color:var(--text);">051-4493031</a><br><a href="https://wa.me/923111529680?text=Hi%20I%20found%20you%20on%20Google%20and%20need%20Dental%20consultation" style="color:var(--green);" target="_blank">031-11529680</a></p></div></div>
     <div class="mc"><span class="mc-ico">🕐</span><div><strong>Clinic Hours</strong><p>Mon–Sat: 9:00 AM – 8:00 PM<br>Sunday: By Appointment</p></div></div>
     <div class="mc"><span class="mc-ico">🚗</span><div><strong>Nearby Areas</strong><p>DHA · Bahria · PWD · Anchorage<br>Soan Gardens · Rawalpindi</p></div></div>
   </div>
@@ -1199,7 +1244,7 @@ section{padding:80px 5%;}
     <div class="footer-col">
       <h4>Book Appointment</h4>
       <p style="font-size:.82rem;color:rgba(255,255,255,.5);margin-bottom:14px;">Same-day available. WhatsApp for fastest booking.</p>
-      <a href="https://wa.me/923111529680" target="_blank" class="btn-wa" style="display:inline-flex;margin-bottom:10px;font-size:.8rem;padding:10px 16px;">💬 WhatsApp Now</a><br>
+      <a href="https://wa.me/923111529680?text=Hi%20I%20found%20you%20on%20Google%20and%20need%20Dental%20consultation" target="_blank" class="btn-wa" style="display:inline-flex;margin-bottom:10px;font-size:.8rem;padding:10px 16px;">💬 WhatsApp Now</a><br>
       <a href="tel:05144930311" style="display:inline-flex;align-items:center;gap:6px;background:var(--navy-mid);color:white;padding:10px 16px;border-radius:10px;font-size:.8rem;font-weight:600;margin-top:8px;">📞 051-4493031</a>
     </div>
   </div>
@@ -1237,7 +1282,12 @@ cd(n+7*86400000,'cd1');
 cd(n+14*86400000,'cd2');
 cd(n+14*86400000,'cd3');
 function tf(el){const item=el.closest('.faq-item'),open=item.classList.contains('open');document.querySelectorAll('.faq-item.open').forEach(i=>i.classList.remove('open'));if(!open)item.classList.add('open');}
-setTimeout(()=>{const b=document.getElementById('sBub');if(b){b.style.display='block';setTimeout(()=>b.style.display='none',7000);}},9000);
+setTimeout(()=>{const b=document.getElementById('sBub');if(b){b.style.display='block';setTimeout(()=>b.style.display='none',7000);}},4000);
 </script>
+
+<p style="display:none;">
+best dentist near me Islamabad, dental clinic near DHA Islamabad, dentist near Bahria Town, PWD, Anchorage, Imarat downtown, capital enclave, lohir bheer, Jinnah Garden, dental implant near me Islamabad
+</p>
+
 </body>
 </html>
